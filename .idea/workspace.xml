@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edab29d1-d5b6-43bf-b03c-70fb8c192a73" name="Default Changelist" comment="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;.">
+    <list default="true" id="edab29d1-d5b6-43bf-b03c-70fb8c192a73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Conta.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa$Endereco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <workItem from="1615565776728" duration="835000" />
       <workItem from="1615566634868" duration="124000" />
       <workItem from="1615566774677" duration="976000" />
-      <workItem from="1615659914274" duration="1304000" />
+      <workItem from="1615659914274" duration="1692000" />
     </task>
     <task id="LOCAL-00001" summary="Modificação na classe Pessoa para que a propriedade &quot;set&quot; seja privada">
       <created>1615660600119</created>
@@ -108,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615660669201</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;.">
+      <created>1615661243421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615661243421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
