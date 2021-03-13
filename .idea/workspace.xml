@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edab29d1-d5b6-43bf-b03c-70fb8c192a73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Banco.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/BancoTeste.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/ClienteTipo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteClienteTipoEnum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mainModule.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/mainModule.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Enum" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -49,7 +50,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.BancoTesteKt">
+  <component name="RunManager" selected="Application.TesteClienteTipoEnumKt">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteClienteTipoEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.TesteClienteTipoEnumKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteClienteTipoEnumKt" />
         <item itemvalue="Application.BancoTesteKt" />
         <item itemvalue="Application.PessoaKt" />
       </list>
@@ -107,7 +122,7 @@
       <workItem from="1615565776728" duration="835000" />
       <workItem from="1615566634868" duration="124000" />
       <workItem from="1615566774677" duration="976000" />
-      <workItem from="1615659914274" duration="2824000" />
+      <workItem from="1615659914274" duration="4374000" />
     </task>
     <task id="LOCAL-00001" summary="Modificação na classe Pessoa para que a propriedade &quot;set&quot; seja privada">
       <created>1615660600119</created>
@@ -137,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615661830774</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criação do arquivo &quot;BancoTeste&quot; para testar o Data Class &quot;Banco&quot;.">
+      <created>1615662830969</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615662830969</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +171,7 @@
     <MESSAGE value="Atualização da workspace e arquivos da IDE de rotina do projeto." />
     <MESSAGE value="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;." />
     <MESSAGE value="Criação da classe &quot;Conta&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação da classe &quot;Conta&quot;." />
+    <MESSAGE value="Criação do arquivo &quot;BancoTeste&quot; para testar o Data Class &quot;Banco&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação do arquivo &quot;BancoTeste&quot; para testar o Data Class &quot;Banco&quot;." />
   </component>
 </project>
