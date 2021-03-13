@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edab29d1-d5b6-43bf-b03c-70fb8c192a73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa$Endereco.class" afterDir="false" />
+    <list default="true" id="edab29d1-d5b6-43bf-b03c-70fb8c192a73" name="Default Changelist" comment="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa$Endereco.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" afterDir="false" />
     </list>
@@ -48,6 +49,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="mainModule" />
       <option name="VM_PARAMETERS" />
@@ -78,8 +92,23 @@
       <workItem from="1615565776728" duration="835000" />
       <workItem from="1615566634868" duration="124000" />
       <workItem from="1615566774677" duration="976000" />
-      <workItem from="1615659914274" duration="469000" />
+      <workItem from="1615659914274" duration="1304000" />
     </task>
+    <task id="LOCAL-00001" summary="Modificação na classe Pessoa para que a propriedade &quot;set&quot; seja privada">
+      <created>1615660600119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615660600119</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Atualização da workspace e arquivos da IDE de rotina do projeto.">
+      <created>1615660669201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615660669201</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +116,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Modificação na classe Pessoa para que a propriedade &quot;set&quot; seja privada" />
+    <MESSAGE value="Atualização da workspace e arquivos da IDE de rotina do projeto." />
+    <MESSAGE value="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;." />
   </component>
 </project>
