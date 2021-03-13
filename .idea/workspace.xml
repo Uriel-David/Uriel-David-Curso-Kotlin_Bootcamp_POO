@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edab29d1-d5b6-43bf-b03c-70fb8c192a73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Conta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Banco.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/BancoTeste.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -46,7 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BancoTesteKt">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -56,6 +59,19 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BancoTesteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.BancoTesteKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BancoTesteKt" />
         <item itemvalue="Application.PessoaKt" />
       </list>
     </recent_temporary>
@@ -90,7 +107,7 @@
       <workItem from="1615565776728" duration="835000" />
       <workItem from="1615566634868" duration="124000" />
       <workItem from="1615566774677" duration="976000" />
-      <workItem from="1615659914274" duration="1692000" />
+      <workItem from="1615659914274" duration="2824000" />
     </task>
     <task id="LOCAL-00001" summary="Modificação na classe Pessoa para que a propriedade &quot;set&quot; seja privada">
       <created>1615660600119</created>
@@ -113,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615661243421</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criação da classe &quot;Conta&quot;.">
+      <created>1615661830774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615661830774</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +148,7 @@
     <MESSAGE value="Modificação na classe Pessoa para que a propriedade &quot;set&quot; seja privada" />
     <MESSAGE value="Atualização da workspace e arquivos da IDE de rotina do projeto." />
     <MESSAGE value="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;." />
+    <MESSAGE value="Criação da classe &quot;Conta&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação da classe &quot;Conta&quot;." />
   </component>
 </project>
