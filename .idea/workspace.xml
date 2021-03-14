@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edab29d1-d5b6-43bf-b03c-70fb8c192a73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/ClienteTipo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteClienteTipoEnum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Analista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Funcionario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Gerente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteFuncionarioAnalista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteFuncionarioGerente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/imprimeRelatorioFuncionario.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/BancoTeste.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteBanco.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mainModule.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/mainModule.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/testes/BancoTesteKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +28,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -40,9 +50,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,42 +61,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.TesteClienteTipoEnumKt">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zinrax\Documents\Development\Curso-Kotlin_Bootcamp (POO)\src\main\kotlin\one\digitalInnovation\digionebank\testes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TesteFuncionarioGerenteKt">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BancoTesteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="mainModule" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.BancoTesteKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="mainModule" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.PessoaKt" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,11 +91,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteFuncionarioAnalistaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.TesteFuncionarioAnalistaKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionarioGerenteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.TesteFuncionarioGerenteKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionarioKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.TesteFuncionarioKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestePessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="mainModule" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.TestePessoaKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteFuncionarioGerenteKt" />
+        <item itemvalue="Application.TesteFuncionarioAnalistaKt" />
+        <item itemvalue="Application.TesteFuncionarioKt" />
+        <item itemvalue="Application.TestePessoaKt" />
         <item itemvalue="Application.TesteClienteTipoEnumKt" />
-        <item itemvalue="Application.BancoTesteKt" />
-        <item itemvalue="Application.PessoaKt" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +164,8 @@
       <workItem from="1615565776728" duration="835000" />
       <workItem from="1615566634868" duration="124000" />
       <workItem from="1615566774677" duration="976000" />
-      <workItem from="1615659914274" duration="4374000" />
+      <workItem from="1615659914274" duration="4616000" />
+      <workItem from="1615731937176" duration="3680000" />
     </task>
     <task id="LOCAL-00001" summary="Modificação na classe Pessoa para que a propriedade &quot;set&quot; seja privada">
       <created>1615660600119</created>
@@ -159,7 +202,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615662830969</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Atualização da workspace do projeto.">
+      <created>1615679177169</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615679177169</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Criação da Enum &quot;ClienteTipo&quot; e da classe de teste para ela.">
+      <created>1615679246203</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615679246203</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +229,8 @@
     <MESSAGE value="Acréscimo da função &quot;pessoaInfo()&quot; dentro da classe &quot;Pessoa()&quot;." />
     <MESSAGE value="Criação da classe &quot;Conta&quot;." />
     <MESSAGE value="Criação do arquivo &quot;BancoTeste&quot; para testar o Data Class &quot;Banco&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do arquivo &quot;BancoTeste&quot; para testar o Data Class &quot;Banco&quot;." />
+    <MESSAGE value="Atualização da workspace do projeto." />
+    <MESSAGE value="Criação da Enum &quot;ClienteTipo&quot; e da classe de teste para ela." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação da Enum &quot;ClienteTipo&quot; e da classe de teste para ela." />
   </component>
 </project>
