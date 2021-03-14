@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edab29d1-d5b6-43bf-b03c-70fb8c192a73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Analista.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Gerente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteFuncionarioAnalista.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteFuncionarioGerente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/imprimeRelatorioFuncionario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Logavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteAutenticacao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteCliente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/BancoTeste.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteBanco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteFuncionarioGerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/one/digitalInnovation/digionebank/testes/TesteFuncionarioGerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mainModule.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/mainModule.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/PessoaKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/testes/BancoTesteKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/Gerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/testes/TesteFuncionarioGerenteKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/one/digitalInnovation/digionebank/testes/TesteFuncionarioGerenteKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,7 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -66,7 +65,7 @@
       <recent name="C:\Users\Zinrax\Documents\Development\Curso-Kotlin_Bootcamp (POO)\src\main\kotlin\one\digitalInnovation\digionebank\testes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteFuncionarioGerenteKt">
+  <component name="RunManager" selected="Application.TesteClienteKt">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -78,14 +77,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteClienteTipoEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="TesteClienteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="mainModule" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.TesteClienteTipoEnumKt" />
+      <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.digionebank.testes.TesteClienteKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteClienteKt" />
         <item itemvalue="Application.TesteFuncionarioGerenteKt" />
         <item itemvalue="Application.TesteFuncionarioAnalistaKt" />
         <item itemvalue="Application.TesteFuncionarioKt" />
         <item itemvalue="Application.TestePessoaKt" />
-        <item itemvalue="Application.TesteClienteTipoEnumKt" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +164,7 @@
       <workItem from="1615566634868" duration="124000" />
       <workItem from="1615566774677" duration="976000" />
       <workItem from="1615659914274" duration="4616000" />
-      <workItem from="1615731937176" duration="3680000" />
+      <workItem from="1615731937176" duration="8040000" />
     </task>
     <task id="LOCAL-00001" summary="Modificação na classe Pessoa para que a propriedade &quot;set&quot; seja privada">
       <created>1615660600119</created>
@@ -216,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615679246203</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Criação das classes abstratas e suas repectivas classes de testes.">
+      <created>1615740395903</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615740395903</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Criação das classes abstratas e suas repectivas classes de testes.">
+      <created>1615740402584</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615740402584</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +244,7 @@
     <MESSAGE value="Criação do arquivo &quot;BancoTeste&quot; para testar o Data Class &quot;Banco&quot;." />
     <MESSAGE value="Atualização da workspace do projeto." />
     <MESSAGE value="Criação da Enum &quot;ClienteTipo&quot; e da classe de teste para ela." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação da Enum &quot;ClienteTipo&quot; e da classe de teste para ela." />
+    <MESSAGE value="Criação das classes abstratas e suas repectivas classes de testes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação das classes abstratas e suas repectivas classes de testes." />
   </component>
 </project>

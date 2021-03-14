@@ -12,5 +12,5 @@ abstract class Funcionario(nome: String, cpf: String, val salario: Double)
         Cpf = $cpf
         Salario = $salario
         Auxilio = ${calculoAuxilio()}
-        """.trimIndent()
+    """.trimIndent()
 }
